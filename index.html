@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Music</title>
+  <style>
+    body {
+      background:#0d0d0d;
+      color:white;
+      font-family:sans-serif;
+      display:flex;
+      justify-content:center;
+    }
+    .wrap {
+      width:400px;
+      margin-top:60px;
+    }
+    .player {
+      background:#1a1a1a;
+      padding:20px;
+      border-radius:12px;
+      text-align:center;
+    }
+    .track {
+      padding:12px;
+      border-bottom:1px solid #333;
+      cursor:pointer;
+    }
+  </style>
+</head>
+
+<body>
+<div class="wrap">
+
+<h2>My Music</h2>
+
+<div class="player">
+  <div id="title">Select a song</div>
+  <audio id="audio" controls></audio>
+</div>
+
+<div class="track" onclick="playSong('https://filebin.net/thxeng7wp621hkqi/01%20Midnight%20Sun.mp3E','Warrior')">Warrior</div>
+
+</div>
+
+<script>
+function playSong(link, title){
+  document.getElementById("audio").src = link;
+  document.getElementById("audio").play();
+  document.getElementById("title").innerText = title;
+}
+</script>
+
+</body>
+</html>
