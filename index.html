@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Midnight Sun — Never Ending Edition</title>
+<title>Jessie Ware - Superbloom (Deluxe)</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
 
@@ -540,8 +540,8 @@ body::before {
 
   <!-- Header -->
   <header class="app-header">
-    <div class="logo">Midnight <span>Sun</span></div>
-    <div class="header-meta">Never Ending Edition &nbsp;·&nbsp; Zara Larsson</div>
+    <div class="logo">Superbloom </span></div>
+    <div class="header-meta">Jessie &nbsp;·&nbsp; Ware</div>
   </header>
 
   <!-- Left Column -->
@@ -549,7 +549,7 @@ body::before {
 
     <!-- Album Art -->
     <div class="cover-wrap">
-      <img id="coverImg" src="https://i.postimg.cc/XNh0Wq1z/92dce51eb502431ca094dd2eb502c77a.jpg" alt="Album Art">
+      <img id="coverImg" src="https://upload.wikimedia.org/wikipedia/en/3/3d/Jessie_Ware_-_Superbloom.png" alt="Album Art">
       <div class="cover-overlay"></div>
       <div id="nowBadge" class="now-playing-badge">Now Playing</div>
       <div id="vinylSpin" class="vinyl-spin"></div>
@@ -560,7 +560,7 @@ body::before {
 
       <div class="track-info">
         <div id="trackName" class="track-name">Select a track</div>
-        <div class="track-artist">Zara Larsson</div>
+        <div class="track-artist">Jessie Ware</div>
       </div>
 
       <!-- Progress -->
@@ -637,7 +637,7 @@ body::before {
 
   <!-- Footer -->
   <footer class="app-footer">
-    <div class="footer-text">Zara Larsson &nbsp;·&nbsp; 2026</div>
+    <div class="footer-text">Jessie Ware &nbsp;·&nbsp; 2026</div>
     <div class="footer-dots">
       <div class="footer-dot active"></div>
       <div class="footer-dot"></div>
@@ -658,26 +658,14 @@ body::before {
    DATA
 ═══════════════════════════════ */
 const tracks = [
-  { title: 'Midnight Sun',   src: 'https://cdn.discordapp.com/attachments/1213257729754529794/1496235051300421713/01_Midnight_Sun.mp3?ex=69e924fa&is=69e7d37a&hm=8d08740d7208d361969abd62a19abbb3a5c2294cc650d44422a0ed20e157bbab&' },
-  { title: 'DJ Made Me Do',  src: 'https://cdn.discordapp.com/attachments/1213257729754529794/1496235051611062382/02_DJ_Made_Me_Do.wav?ex=69e924fb&is=69e7d37b&hm=d4488ababe56f46758d755759680064ba322e4d58ee971f50d039b475c3d72e4&' },
-  { title: 'Blue Moon',      src: 'https://cdn.discordapp.com/attachments/1213257729754529794/1496235051937956061/03_Blue_Moon.mp3?ex=69e924fb&is=69e7d37b&hm=57e10ed9b8d6235a7b5658827a9036f0dd39628f9fc7334350e70e69312a6da3&' },
-  { title: 'Seconds',        src: 'https://cdn.discordapp.com/attachments/1213257729754529794/1496235052315709510/04_Seconds.mp3?ex=69e924fb&is=69e7d37b&hm=2b348ed586978b085be838c9fac9d2d3647b3d8f9ac3dff68168db7f7d353662&' },
-  { title: 'Pretty Ugly',    src: 'https://cdn.discordapp.com/attachments/1213257729754529794/1496235052751654922/05_Pretty_Ugly.mp3?ex=69e924fb&is=69e7d37b&hm=ad69b40aaf8b6b413d7d4f95921eadf5b9513656c2b8e9d886b11fcc00bc0f8a&' },
-  { title: 'Lil Fun',        src: 'https://cdn.discordapp.com/attachments/1213257729754529794/1496235053045383349/06_Lil_Fun.mp3?ex=69e924fb&is=69e7d37b&hm=7a60798c2e9f386b3a2ac2ad28dfa4d12e878ec0f35ab4776fc334d84f0f7def&' },
-  { title: "Girls Girl",     src: 'https://cdn.discordapp.com/attachments/1213257729754529794/1496239156651753573/girlsgirl.mp3?ex=69e928cd&is=69e7d74d&hm=3eb2b963fed8af6ed610556bdebe6da03b114e4a8b136213a36962dbf40b9642&' },
-  { title: 'NOW!',           src: 'https://cdn.discordapp.com/attachments/1213257729754529794/1496235053825527948/08_NOW.wav?ex=69e924fb&is=69e7d37b&hm=200d6fa29f0c303ee9c5eeb90bab0cac4c790db51f6e8d4af18c6114787f57f8&' },
-  { title: 'Crush',          src: 'https://cdn.discordapp.com/attachments/1213257729754529794/1496235054106415267/09_Crush.mp3?ex=69e924fb&is=69e7d37b&hm=bb70e4b501d8b54d14f4cd5b88a4295ce2d237224f2c635fe4045998c9704e50&' },
-  { title: 'Turnin',         src: 'https://cdn.discordapp.com/attachments/1213257729754529794/1496235054358069308/10_Turnin.mp3?ex=69e924fb&is=69e7d37b&hm=cdd9cd693aa563c2fa4d546e6296d5958bcb818a5788a65cd799822275b668cd&' },
-  { title: 'Eurosummer',     src: 'https://cdn.discordapp.com/attachments/1213257729754529794/1496235076873224374/11_Eurosummer.mp3?ex=69e92501&is=69e7d381&hm=10c7501318e12e66cc263816c164201a35a68231eac8591c7e28ad2ff55f7443&' },
-  { title: 'Caught Up',      src: 'https://cdn.discordapp.com/attachments/1213257729754529794/1496235077305368576/12_Caught_Up.mp3?ex=69e92501&is=69e7d381&hm=724b815ae1bd6c4ea9d2b87aea50af5f4450598fd347cf47f02cc7ffaff3f218&' },
-  { title: 'Hot & Sexy',     src: 'https://cdn.discordapp.com/attachments/1213257729754529794/1496235077577867394/13_Hot__Sexy.mp3?ex=69e92501&is=69e7d381&hm=a2bbf2ab73467a702ba20f2b35758a210c5d1539c980143f3a805392a6e5dc0a&' },
-  { title: 'Curious',        src: 'https://cdn.discordapp.com/attachments/1213257729754529794/1496235077926125599/14_Curious.mp3?ex=69e92501&is=69e7d381&hm=9616bbb91361c9e1c14d92558ef293f4606b3b1b9d048c46a676ecdd9f8d73d3&' },
-  { title: 'The Ambition',   src: 'https://cdn.discordapp.com/attachments/1213257729754529794/1496235078374785074/15_The_Ambition.mp3?ex=69e92501&is=69e7d381&hm=3ab83c8aaa24c1c38386d2707a3cd812fc3f8edd8af8b8e15f2b0b4cf0e8da1b&' },
-  { title: 'Vivid',          src: 'https://cdn.discordapp.com/attachments/1213257729754529794/1496235078735630640/16_Vivid.mp3?ex=69e92501&is=69e7d381&hm=87c763bc174ca3d56e55a6cb657cdf1fd9d37c072c63eeff03473e490c3c9a58&' },
-  { title: "Saturn's Return",src: 'https://cdn.discordapp.com/attachments/1213257729754529794/1496235079024771312/17_Saturns_Return.mp3?ex=69e92501&is=69e7d381&hm=4844a0e26b5a70d8de5b9da9f8ee8325f7827eb6be566b69f86d9216d664d6c5&' },
-  { title: 'Weird Bliss',    src: 'https://cdn.discordapp.com/attachments/1213257729754529794/1496235079285084271/18_Weird_Bliss.wav?ex=69e92501&is=69e7d381&hm=e68c658bd73d0895a26c61e4db449b754ce6bec3f04a0144a0dad65cec75eb8e&' },
-  { title: 'Puss Puss',      src: 'https://cdn.discordapp.com/attachments/1213257729754529794/1496235079549194491/19_Puss_Puss.mp3?ex=69e92501&is=69e7d381&hm=a3351c7204d922ad787d729ea247b085239ba2867f62a36a6dea992c06301159&' },
-  { title: 'TATP',           src: 'https://cdn.discordapp.com/attachments/1213257729754529794/1496235079830077503/20_TATP.mp3?ex=69e92501&is=69e7d381&hm=e84404671b2d97d794babc04a0683b985bdeaf91afb553143e8204ab944f3bc6&' },
+  { title: 'Above It All',   src: 'https://cdn.discordapp.com/attachments/1213257729754529794/1498412606736830594/Above_It_All.m4a?ex=69f110fc&is=69efbf7c&hm=d814ed3239ba186c7d3a5c0f37c7f1feafa4e4c0aa2b107104741bd1f5f5d454&' },
+  { title: 'Real Love',  src: 'https://cdn.discordapp.com/attachments/1213257729754529794/1498412607009329282/Real_Love.m4a?ex=69f110fc&is=69efbf7c&hm=9901cbb2e32389aa313e10f2901b324145d624a445a4d37c442e331dfba45852&' },
+  { title: 'Kickstart',      src: 'https://cdn.discordapp.com/attachments/1213257729754529794/1498412607277629593/22_Kickstart.m4a?ex=69f110fc&is=69efbf7c&hm=3c912e0f0f507f2aa9cec1759e2f0b54a1da837edede78a76f3cecdee3ed4702&' },
+  { title: 'Midnight Lover',        src: 'https://cdn.discordapp.com/attachments/1213257729754529794/1498412607571497090/23_Midnight_Lover.mp3?ex=69f110fc&is=69efbf7c&hm=a80e00d87b1505653bcd207bdc6509f19dafb2749fda2fbcf172e288492aa3ff&' },
+  { title: 'Cost of Love',    src: 'https://cdn.discordapp.com/attachments/1213257729754529794/1498412608003379382/24_Cost_of_Love.mp3?ex=69f110fc&is=69efbf7c&hm=a761b0ba681790da20825f35d1e5569a8b2aac2dafeedb15fa5793c3711fe6ba&' },
+  { title: 'Last Last Time',        src: 'https://cdn.discordapp.com/attachments/1213257729754529794/1498412608305233990/25_Last_Last_Time.m4a?ex=69f110fc&is=69efbf7c&hm=296f7b83b76e5df2ebd0e95e62ac83753bc0129f8dffef11c5c48fe5203a61e4&' },
+  { title: "Satisfy Me",     src: 'https://cdn.discordapp.com/attachments/1213257729754529794/1498412608645238835/26_Satisfy_Me.m4a?ex=69f110fd&is=69efbf7d&hm=6fa05bb2f4a866e6a768527139b3749da944bd9a51691307eccdaff3cf56c749&' },
+  { title: 'Love Stroke',           src: 'https://cdn.discordapp.com/attachments/1213257729754529794/1498412608955613296/27_Love_Stroke.mp3?ex=69f110fd&is=69efbf7d&hm=3e513a7c251588df908656c1de6cbdbb9d30eddc75a1af322ab14ecf52250900&' },
 ];
 
 /* ═══════════════════════════════
